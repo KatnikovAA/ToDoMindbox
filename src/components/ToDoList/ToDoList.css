@@ -1,0 +1,6 @@
+.todoListClose{
+    font-size: 0px;
+    opacity: 0;
+    height: 0px;
+    transition: all 0.1s;
+}

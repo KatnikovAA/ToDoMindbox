@@ -1,0 +1,89 @@
+.mainBlock{
+    background-color: #959595;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content{
+    
+}
+.input{
+    
+    border-bottom: 1px solid #959595;
+}
+.name{
+    color: #e1dada;
+    font-weight: lighter;
+
+}
+
+.todoInputText{
+    font-size: 20px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-style: oblique;
+    width: 700px;
+}
+
+.todoInputText::placeholder {
+    color: gray;
+  }
+
+  .todoInputText:hover{
+    outline: none;
+    color: gray;
+  }
+
+  .listOpen{
+    position: relative;
+    top: 14px;
+    transform: rotate(90deg);
+    width: 42px;
+    height: 42px;
+    background-color: white;
+  }
+  .listClose{
+    position: relative;
+    top: 14px;
+    transform: rotate(-90deg);
+    width: 42px;
+    height: 42px;
+    background-color: white;
+  }
+
+  .footer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 746px;
+    padding-bottom: 4px;
+  }
+
+  .inform{
+    display: flex;
+    justify-content: space-between;
+  }
+  .countActiveTodos{
+    color: gray;
+    padding-top: 10px;
+    padding-left: 14px;
+    font-size: 13px;
+  }
+
+  .mainBlockIndex2{
+    width: 740px;
+    margin-left: 2px;
+    height: 5px;
+    background-color: white;
+    border: 1px solid #959595;
+  }
+  .mainBlockIndex3{
+    box-shadow: 0px 1px 30px 0px rgba(0, 0, 0, 0.5);
+    width: 734px;
+    margin-left: 4px;
+    height: 5px;
+    background-color: white;
+    border: 1px solid #959595;
+  }

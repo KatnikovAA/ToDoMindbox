@@ -1,0 +1,16 @@
+*{
+  margin: 0px;
+  font-family: "Roboto";
+
+}
+  body {
+    font-family: 'Poppins', sans-serif; 
+    min-height: 100vh;
+    font-size: 1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #959595;
+    color: white;
+  }
+  a{ 
+    text-decoration: none;
+}
