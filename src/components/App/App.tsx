@@ -3,6 +3,7 @@ import './App.css'
 import { ToDoList } from '../ToDoList/ToDoList'
 import { toDoType } from '../../types'
 import { Button } from '../Button/Button'
+// @ts-ignore
 import arrow from  '../../img/arrow.png' 
 
 function App() {
